@@ -1,0 +1,310 @@
+/* general */
+a {
+    color:black;
+}
+a:visited{
+    color:black;
+}
+textarea {
+    width:350px;
+    height:150px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Side menu */
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #ccc;
+    color: white;
+}
+/* End of side menu */
+/* header */
+.header {
+    background-color: white;
+    border: #e7e7e7;
+    margin-bottom:-17px;
+}
+.mobile_header {
+    background-color: white;
+    border: #e7e7e7;
+    height:60px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.main_menu ul {
+    list-style-type: none;
+}
+.main_menu li {
+    display: inline-block;
+
+}
+.main_menu li a {
+    color: black;
+    padding: 0 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav li {
+    display: inline-block;
+
+}
+.nav li a {
+    color: black;
+    padding: 0 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav li a :hover {
+    color: #f1f1f1;
+}
+.tournament_menu ul li a{
+    color:black;
+    cursor:pointer;
+}
+.burgermenu {
+    display:none;
+}
+.trn_logo {
+    position: absolute;
+    top:10px;
+    left:80px;
+}
+/* body */
+.fbFeedMobile {
+    display:none;
+}
+.kala {
+    width:200px;
+    height:100px;
+}
+.kala2 {
+    width:300px;
+    height:200px;
+}
+.to-upper {
+    text-transform: uppercase;
+}
+.match-header {
+    border-bottom: 1px solid #d7d7d7;
+    box-shadow: inset 0px 0px 10px 0px #dddddd;
+}
+.header-content-date {
+    padding: 1px 3px;
+}
+.header-content-venue {
+    float:right;
+    padding: 1px 3px;
+}
+.match-body-table {
+    width:100%;
+}
+.match-footer{
+    border: 1px solid #d7d7d7;
+    box-shadow: inset 0px 0px 10px 0px #dddddd;
+    text-align: right;
+}
+.panel-body{
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.match-body-table tbody tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.match-teams {
+    width: 70%;
+}
+.match-teams-team {
+    margin-bottom: 4px;
+}
+.logo-small-container img {
+    text-align: center;
+    width: 25px;
+    margin-right: 4px;
+}
+.match-score {
+    width: 10%;
+    border-right: 1px solid #d4d4d4;
+    text-align: right;
+    padding-right:10px;
+}
+.no-wrap-class {
+    white-space: nowrap;
+}
+.match-time {
+    width: 20%;
+    padding-left:10px;
+}
+.tournament_banner{
+    width: 100%;
+    position: relative;
+    max-height:250px;
+    display:block;
+    margin: 0px auto;
+}
+/* footer */
+#footer-info {
+    color:white;
+    margin: 20px 0;
+}
+.footer {
+    background-color: #2e3235;
+    height:120px;
+    margin-top:20px;
+}
+#footer-info a {
+    color: white;
+}
+#footer-info a:visited{
+    color: white;
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 991px) {
+    .sponsor_img {
+        max-width:120px !important;
+    }
+    .mobile_header {
+        display:none;
+    }
+    .tournament_menu {
+        display:none !important;
+    }
+    .burgermenu{
+        display:block;
+        position: relative;
+        z-index: 10;
+    }
+    .burgermenu1{
+        background-color: #ddd;
+        clear:both;
+        width:55px;
+        padding:0 10px;
+        position: absolute;
+        right:5%;
+        margin-top:5%;
+    }
+    .burx{
+        width: 35px;
+        height: 2px;
+        background-color: black;
+        margin: 6px 0;
+        right: 5%;
+        top:2%;
+
+    }
+    .burx1{
+        width: 35px;
+        height: 2px;
+        background-color: black;
+        margin-top:6px;
+        right: 5%;
+        top:2%;
+
+    }
+    .dropdown-burger{
+        display:none;
+        width:100%;
+        text-decoration: none;
+        color:black;
+        background: rgba(255,255,255,0.8);
+        z-index:10;
+        text-align:center;
+        font-size: 1.2em;
+    }
+    .dropdown-burger a:visited {
+        color:black;
+    }
+    .dropdown-burger a:link{
+        color:black;
+    }
+    .dropdown-burger ul {
+        list-style-type: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .trn_logo {
+        width:150px;
+    }
+    .tournament_menu{
+        margin-top:0px !important;
+    }
+    .trn_logo2 {
+        width:25% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header {
+        margin-bottom:0px !important;
+    }
+}
+@media only screen and (max-width: 609px) {
+    .sponsor_img {
+        max-width:250px !important;
+    }
+    .trn_logo2 {
+        width:30% !important;
+    }
+    .fbFeed{
+        display: none;
+    }
+    .fbFeedMobile{
+        display: inherit;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .trn_logo {
+        left:20px;
+    }
+    .trn_logo2 {
+        width:35% !important;
+    }
+}
